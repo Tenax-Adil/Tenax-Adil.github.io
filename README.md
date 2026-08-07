@@ -5,7 +5,7 @@ Welcome to the repository for my personal portfolio! I'm **Adil**, a final-year 
 
 This site is designed with a sleek, developer-centric retro/neon terminal aesthetic, featuring interactive terminal booting animations, custom accent controls, and responsive layouts.
 
-🚀 **Live Site:** [tenax-adil.github.io](https://Tenax-Adil.github.io)
+🚀 **Live Site:** adilbuild.me
 
 ---
 
