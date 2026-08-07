@@ -1,7 +1,7 @@
 # Tenax-Adil.github.io
 # ⚡ Silicon-to-Software Portfolio
 
-Welcome to the repository for my personal portfolio! I'm **Adil**, a final-year Electronics & Computer Engineering student based in India. I build at the seam where hardware meets software—from bare-metal microcontroller firmware to full-stack web applications.
+Welcome to the repository for my personal portfolio! I'm **Adil**, a final-year Electronics & Computer Engineering student based in India.
 
 This site is designed with a sleek, developer-centric retro/neon terminal aesthetic, featuring interactive terminal booting animations, custom accent controls, and responsive layouts.
 
