@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0a0b0d;
+}
+
+html {
+  background-color: var(--bg);
+  /* Lenis handles smoothing; keep native anchor jumps sane as a fallback. */
+  scroll-behavior: auto;
+}
+
+body {
+  color: #e5e7eb;
+  background-color: var(--bg);
+  font-feature-settings: "ss01", "cv01";
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+/* Thin custom scrollbar to match the terminal aesthetic. */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0b0d;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e232b;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2b6d70;
+}
+
+/* Selection uses the cyan accent, dimmed. */
+::selection {
+  background: rgba(92, 225, 230, 0.25);
+  color: #fff;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}

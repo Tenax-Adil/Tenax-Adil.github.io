@@ -1,0 +1,92 @@
+{
+  "profile": {
+    "name": "Adil",
+    "handle": "Tenax-Adil",
+    "role": "4th-year Electronics & Computer Engineering student",
+    "tagline": "I build at the seam where silicon meets software from firmware on bare metal to full-stack web.",
+    "location": "India",
+    "status": "Open to internships & collaborations",
+    "boot": [
+      { "text": "whoami", "type": "cmd" },
+      { "text": "adil — electronics & computer engineering, final year", "type": "out" },
+      { "text": "cat ./focus.txt", "type": "cmd" },
+      { "text": "embedded systems · real-time monitoring · full-stack web", "type": "out" },
+      { "text": "systemctl status portfolio.service", "type": "cmd" },
+      { "text": "● portfolio.service — loaded, active (running)", "type": "ok" },
+      { "text": "modprobe ./projects --load-all", "type": "cmd" },
+      { "text": "2 modules queued · initializing render pipeline", "type": "warn" },
+      { "text": "./boot --into grid", "type": "cmd" }
+    ],
+    "socials": [
+      { "label": "GitHub", "href": "https://github.com/Tenax-Adil" },
+      { "label": "LinkedIn", "href": "https://www.linkedin.com/in/adil-khan001" },
+      { "label": "Email", "href": "mailto:adilmurtuzakhan@gmailcom" }
+    ],
+    "resumeUrl": "/resume.pdf"
+  },
+  "stats": [
+    { "label": "Discipline", "value": "ECE", "accent": "cyan" },
+    { "label": "Year", "value": "Final", "accent": "amber" },
+    { "label": "Domains", "value": "HW + SW", "accent": "cyan" },
+    { "label": "Uptime", "value": "24/7 curious", "accent": "amber" }
+  ],
+  "skills": [
+    {
+      "label": "Embedded",
+      "accent": "cyan",
+      "items": ["C / C++", "STM32", "ESP32", "Arduino", "RTOS basics", "I2C / SPI / UART"]
+    },
+    {
+      "label": "Web",
+      "accent": "amber",
+      "items": ["TypeScript", "React", "Next.js", "Node.js", "Tailwind", "REST / WebSocket","Python"]
+    },
+    {
+      "label": "Tooling",
+      "accent": "cyan",
+      "items": ["Linux", "Git", "PlatformIO", "Oscilloscope", "Logic analyzer", "Figma"]
+    }
+  ],
+  "projects": [
+    {
+      "kind": "web",
+      "id": "patient-monitor",
+      "title": "Dual-Mode Patient Routing System",
+      "summary": "Real-time vitals dashboard with local-kiosk and remote-clinician modes.",
+      "description": "A web platform that ingests live patient vitals and presents them in two synchronized modes: a bedside kiosk view for on-site staff and a remote dashboard for clinicians monitoring multiple patients. Alerts trigger on threshold breaches with a full audit trail.",
+      "tags": ["Healthcare", "Realtime", "Dashboard", "Full-stack"],
+      "featured": true,
+      "accent": "cyan",
+      "year": "2026",
+      "stack": ["Next.js", "TypeScript", "WebSocket", "Node.js", "Tailwind"],
+      "liveUrl": "https://example.com",
+      "repoUrl": "https://github.com/",
+      "metrics": [
+        { "label": "Modes", "value": "Local + Remote" },
+        { "label": "Update", "value": "Live stream" },
+        { "label": "Alerts", "value": "Threshold-based" }
+      ]
+    },
+    {
+      "kind": "embedded",
+      "id": "gas-detector",
+      "title": "Gas Leakage Detector",
+      "summary": "MQ-sensor safety node with buzzer alarm and threshold calibration.",
+      "description": "An embedded safety device that continuously samples ambient gas concentration and triggers an audible/visual alarm past a calibrated threshold. Designed for low power draw and reliable standalone operation.",
+      "tags": ["Embedded", "Safety", "Sensors", "IoT"],
+      "featured": false,
+      "accent": "amber",
+      "year": "2025",
+      "hardware": ["MQ-2 gas sensor", "Arduino","GSM Module", "Buzzer","Temp sensor", "Status LEDs"],
+      "firmware": ["C / C++", "Arduino framework"],
+      "repoUrl": "https://github.com/",
+      "demoVideo": ""
+    }
+  ],
+  "contact": {
+    "heading": "Let's build something that ships.",
+    "body": "Whether it's firmware on bare metal or a full-stack product, I'm always up for a hard problem. Reach out and let's talk.",
+    "email": "adilmurtuzakhan@gmail.com",
+    "cta": "Say hello"
+  }
+}
