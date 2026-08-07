@@ -25,20 +25,6 @@ No need to modify layout code to update text, stats, or projects; simply update 
 
 ---
 
-## 📁 Key Projects Featured
-
-### 1. Dual-Mode Patient Routing System `[Web/Full-stack]`
-*   **Summary:** A real-time vitals dashboard featuring local bedside kiosk and remote clinician views.
-*   **Stack:** Next.js, TypeScript, WebSockets, Node.js, Tailwind CSS
-*   **Features:** Real-time data streaming, automatic threshold-based alerts, and audit trails.
-
-### 2. Gas Leakage Detector `[Embedded/IoT]`
-*   **Summary:** A standalone safety node using an MQ-sensor with a buzzer alarm and threshold calibration.
-*   **Hardware:** MQ-2 gas sensor, Arduino, GSM Module, Buzzer, Temperature sensor, Status LEDs
-*   **Firmware:** C/C++ using the Arduino framework
-
----
-
 ## ⚡ Development & Deployment
 
 ### Local Setup
