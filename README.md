@@ -60,10 +60,3 @@ To update the bio, projects, stats, or social links:
 2. Edit or append objects (refer to **[CONTENT.md](file:///home/adil/my%20time/portfolio/CONTENT.md)** for detailed schema definitions).
 3. Commit and push your changes to trigger automatic deployment via GitHub Actions.
 
----
-
-## ✉️ Connect with Me
-
-*   **LinkedIn:** [/in/adil-khan001](https://www.linkedin.com/in/adil-khan001)
-*   **GitHub:** [@Tenax-Adil](https://github.com/Tenax-Adil)
-*   **Email:** [adilmurtuzakhan@gmail.com](mailto:adilmurtuzakhan@gmail.com)
